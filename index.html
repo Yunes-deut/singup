@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="titel">sing up form</h1>
+            <div class="step">
+                <ul class="step-name">
+                    <li>
+                        <span>Name</span>
+                        <span class="cercl">1</span>
+                    </li>
+                    <li>
+                        <span>contact</span>
+                        <span class="cercl">2</span>
+                    </li>
+                    <li>
+                        <span>birth</span>
+                        <span class="cercl">3</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="main active">
+                <h4 class="titel-main">Basic info:</h4>
+                <label >vornmae</label>
+                <input type="text" name="vorname">
+                <label >nachnmae</label>
+                <input type="text" name="nachname">
+                <button class="next" >Next</button>
+            </div>
+            <div class="main1">
+                <h4 class="titel-main">contact info:</h4>
+                <label >enter your email</label>
+                <input type="email">
+                <label >enter your tel</label>
+                <input type="tel">
+                <div class="btn">
+                    <button class="btn-next">previos</button>
+                    <button class="btn-previos">Next</button>
+                </div>
+            </div>
+            <div class="main2">
+                <h4 class="titel-main">dat of birth:</h4>
+                <label >date od birth</label>
+                <input type="date" placeholder="jj/jj/jjjj">
+                <label >genre</label>
+                <input type="text" placeholder="male or femal">
+                <div class="btn">
+                    <button class="man2-btn-previos">previos</button>
+                    <button class="man2-btn-next">Next</button>
+                </div>
+            </div>
+            <div class="main3">
+                <h4 class="titel-main">login details:</h4>
+                <label >userName</label>
+                <input type="text">
+                <label >password</label>
+                <input type="password">
+                <div class="btn">
+                    <button class="man3-btn-previos">previos</button>
+                    <button class="man3-btn-submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
